@@ -1,0 +1,19 @@
+
+<html>
+<body>
+    <h1>Gincana NodeJs, <%= nome %>!</h1>
+<ul> 
+    <% for(var i=0; i < pessoas.length; i++) { %>
+        <li>
+            Nome: <%= pessoas[i].nome %>
+        </li>
+        <li>
+            Idade: <%= pessoas[i].idade %>  
+            <br>
+            <br>
+            <br>
+        </li>
+        <% } %>
+</ul>
+</body>
+</html>
